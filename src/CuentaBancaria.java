@@ -12,7 +12,6 @@ public class CuentaBancaria {
         if (opc1 >= 4) {
             System.out.println("Por favor ingresa una opcion valida");
             System.out.println(" ");
-
         }
         return opc1;
     }
@@ -20,7 +19,6 @@ public class CuentaBancaria {
         Scanner sc = new Scanner(System.in);
         int opc1 = 0;
         DatosDeCuenta c1 = new DatosDeCuenta("Javier", "Garcia", 0, 1234567890);
-        
         do {
             opc1 = menu();
             switch (opc1) {

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class DatosDeCuenta {
-    public static Scanner sc = new Scanner (System.in);
+    Scanner sc = new Scanner (System.in);
     private String name;
     private String lastname;
     private double balance;
@@ -17,7 +17,6 @@ public class DatosDeCuenta {
     public String getName() {
             return name;
     }
-
     public void setName(String name) {
             this.name = name;
     }
@@ -25,7 +24,6 @@ public class DatosDeCuenta {
     public String getLastname() {
             return lastname;
     }
-
     public void setLastname(String lastname) {
             this.lastname = lastname;
     }
@@ -33,7 +31,6 @@ public class DatosDeCuenta {
     public double getBalance() {
             return balance;
     }
-
     public void setBalance(double balance) {
             this.balance = balance;
     }
@@ -41,7 +38,6 @@ public class DatosDeCuenta {
     public int getAccountNumber() {
             return accountNumber;
     }
-
     public void setAccountNumber(int accountNumber) {
             this.accountNumber = accountNumber;
     }
