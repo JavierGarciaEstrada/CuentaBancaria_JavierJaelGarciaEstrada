@@ -46,6 +46,7 @@ public class DatosDeCuenta {
             balance += amount;
             System.out.println("$" + amount + " depositado con éxito.");
             System.out.println("El saldo actual es: $"+ getBalance());
+            System.out.println(" ");
         }//incrementa el saldo inicial dependiendo del monto indicado
 
     public void withdraw(double amount) {
@@ -53,6 +54,7 @@ public class DatosDeCuenta {
             balance -= amount;
             System.out.println("$" + amount + " retirado con éxito.");
             System.out.println("El saldo restante es: " + getBalance());
+            System.out.println(" ");
             //si hay dinero suficiente en la cuenta se resta el monto pedido y proyecta un mensaje indicando que se realizo con exico la accion
         } else {
             System.out.println("Fondos insuficientes.");
